@@ -33,11 +33,31 @@
     <ClCompile Include="struct03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="sttuct04.cpp">
+    <ClCompile Include="struct04.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="struct.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="class01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FIleDivi01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="car.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDivi.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
