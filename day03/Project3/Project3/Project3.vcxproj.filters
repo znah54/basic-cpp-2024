@@ -51,12 +51,18 @@
     <ClCompile Include="FIleDivi01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Myself.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="FileDivi.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Myself.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

@@ -66,11 +66,35 @@ ex) char name [100];
 	- C++ new,delete(C는 malloc free) >> Heap에 메모리 저장
 	- Class
 	: 클래스는 기본적으로 클래스 내에 선언된 변수는 클래스 내에 선언된 함수에서만 접근 가능하다.
-		- Public : 어디서든 접근 허용
+		- Public : 어디서든 접근 허용	> 접근제한
 		- protected : 상관관계에 놓여있을 때, 유도 클래스에서의 접근허용
-		- private : 클래스 내(클래스 내에 정의된 함수)에서만 접근허용
+		- private : 클래스 내(클래스 내에 정의된 함수)에서만 접근허용	 > 멤버함수
+
+	- Class 함수는 전역함수 
 
 ## 4일차
+	- new 연산자는 힙영역에 메모리를 할당하고 그 주소를 리턴한다.
+	
+
+	1. 생성자와 소멸장
+	```
+	class SimpleClass
+	{
+		private:
+		int num;
+		public:
+		SimpleClass(int n) // 생성자(constructor)
+		{
+			num=n;
+		}
+		int GetNum() const
+		{
+			return num;
+		}
+	};
+	```
+
+
 
 ## 5일차
 
