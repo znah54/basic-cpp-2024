@@ -31,9 +31,9 @@ public:
 		cout << "called destructor!" << endl;
 	}
 	int main(void) {
-		Person parr[3];
-		char namestr[100];
-		char* strptr;
+		Person parr[3];							// 객체배열
+		char namestr[100];						// 문자배열
+		char* strptr;							// char 타입의 포인터변수
 		int age;
 		int len;
 

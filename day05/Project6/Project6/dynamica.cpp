@@ -22,7 +22,7 @@ int main()
 		printf("pary[%d] : %d\n", i, pary[i]);
 	}
 
-	delete []pary;
+	delete []pary;					// 배열로 동적할당한 메모리를 반환한다.
 
 
 	return 0;
