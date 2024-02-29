@@ -147,6 +147,22 @@ SoSimple *ptrArr = new SoSimple[10]
 			name=new char[strlen(copy.name)+1];
 			strcpy(name, copy.name)
 		}
+		- 복사 생성자 호출되는 시점
+			1. 기존에 생성된 객체를 이용해서 새로운 객체를 초기화 하는 경우
+			2. Call-by-value 방식의 함수호출 과정에서 객체를 인자로 전달하는 경우
+			3. 객체를 반환하되, 참조형으로 반환하지 않는 경우
+
+		- 메모리 공간의 할당과 초기화가 동시에 일어나는 상황
+		(Call-by-value) 값만 전달할 경우에만
+		```
+		int func(int a){		// a = 10; num의 10을 복사해서 사용한다.
+		a = 10 + a;
+		return a;				// a를 리턴한다.
+		}
+
+		int num = 10;
+		int res = func(num)
+		```
 
 ## 7일차
 
