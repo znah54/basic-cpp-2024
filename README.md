@@ -165,8 +165,18 @@ SoSimple *ptrArr = new SoSimple[10]
 		```
 
 ## 7일차
+	- friend , static
+	p.265~310
+
+	상속(Inheritance)
+	유도클래스
+	protected
+	
 
 ## 8일차
+
+	- 오버로딩(Overloading) : 다중정의
+	- 오버라이딩(Overriding) : 재정의, 상속관계에서 사용
 
 ## 9일차 
 
