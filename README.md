@@ -266,7 +266,7 @@ SoSimple *ptrArr = new SoSimple[10]
 		cin>>name;
 		cout<<"국어점수 : ";
 		cin>>inKo;
-		cout<<"영어점수 : ";
+		cout<<"영어점수 : ";	
 		cin>>inEng;
 		cout<<"수학점수 : ";
 		cin>>inMath;
@@ -275,7 +275,7 @@ SoSimple *ptrArr = new SoSimple[10]
 		gradeAry[i] = new Grade(name,inKo,inEng,inMath);
 		}
 		for(int i=0;i<3;i++){
-			printf("i번째 학생총점 : %d, 평점:%.1lf\n",gradeAry[i]->sum(),gradeAry[i]-<avr());
+			printf("%d번째 학생총점 : %d, 평점:%.1lf\n",gradeAry[i]->sum(),gradeAry[i]-<avr());
 		}
 		cout<<gradeAry[0]->getKo()<<endl;
 		for(int i=0;i<3;i++){
