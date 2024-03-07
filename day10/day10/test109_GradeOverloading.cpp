@@ -42,9 +42,9 @@ int main() {
 	cin >> name >> a >> b >> c;
 	Grade st1(name, a, b, c);
 	st1.ShowGradeInfo();
-	Grade st2("김철수", 98, 98, 98);
+	Grade st2("용당동", 98, 98, 98);
 	st2.ShowGradeInfo();
-	Grade st3("이주원", 100, 100, 100);
+	Grade st3("감만동", 100, 100, 100);
 	st3.ShowGradeInfo();
 	cout << endl;
 
