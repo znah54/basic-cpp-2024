@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 class Grade {
 	char* name;
@@ -26,6 +27,7 @@ public:
 		return math;
 	}
 	void sum() {
+
 		int sum = ko + eng + math;
 		return sum;
 	}
@@ -34,35 +36,29 @@ public:
 	}
 };
 int main() {
-	Grade* gradeAry[3]; //객체 포인터 배열
-
+	//Grade* gradeAry[3]; //객체 포인터 배열
+	Grade gradeAry[100];	//객체 배열
+	int a;
 	char name[20] = {};
 	int inKo = 0;
 	int inEng = 0;
 	int inMath = 0;
 
-	cout << "이름: ";
-	cin >> name;
-	cout << "국어점수 : ";
-	cin >> inKo;
-	cout << "영어점수 : ";
-	cin >> inEng;
-	cout << "수학점수 : ";
-	cin >> inMath;
-	cout << name << inKo << inEng << inMath << endl;
-	
-	gradeAry[i]= new Grade(name, inKo, inEng, inMath);
+	cout << "성적처리 학생 수 : " << endl;
+	cin >> a;
+	//vector<Grade> gradeAry(a);
+	for (int i = 0; i < a; i++) {
 
-		for (int i = 0; i < 3; i++) 
-{
-	printf("i번째 학생총점 : %d, 평점:%.1lf\n", gradeAry[i]->sum(), gradeAry[i] -> avr());
-}
-	cout << gradeAry[0]->getKo() << endl;
-	
-		for (int i = 0; i < 3; i++) 
-{
-	printf("객체 할당 소멸자 호출");
-	delete gradeAry[i];
-}
+		cout << "이름: ";
+		cin >> name;
+		cout << "국어점수 : ";
+		cin >> inKo;
+		cout << "영어점수 : ";
+		cin >> inEng;
+		cout << "수학점수 : ";
+		cin >> inMath;
+		cout << name << inKo << inEng << inMath << endl;
+	}
 	return 0;
 }
+	
