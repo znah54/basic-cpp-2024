@@ -286,3 +286,10 @@ SoSimple *ptrArr = new SoSimple[10]
 	```
 
 	- C++ reference
+
+## 12일차
+
+	- 배열 : 검색이 쉬움(배열이름은 주소, 배열은 for문) <-> 수정이 어려움
+	- 배열크기는 고정적이라 값 변경 안됨
+	- Vector : 자동으로 메모리가 할당, template 벡터 구현 해야 함
+	v.front() 맨앞, v.back() 맨뒤, push_back, pop_back
