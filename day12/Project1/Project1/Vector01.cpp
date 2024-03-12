@@ -41,6 +41,8 @@ int main() {
 
 	vector<int> v1;		// 크기가 0인 벡터가 생성
 	vector<int> v2(5);	// 크기가 5인 벡터가 생성
+	vector<int> v3 = { 10,20,30 };
+	vector<int>v4(10, 7);	// 크기가 10이고, 7로 초기화
 
 	return 0;
 }
