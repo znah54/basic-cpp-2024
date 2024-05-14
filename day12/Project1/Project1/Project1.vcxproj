@@ -127,16 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LibrarySystem.c" />
+    <ClCompile Include="LibrarySystem.function.c" />
+    <ClCompile Include="LibrarySystem_struct.c" />
+    <ClCompile Include="makefile" />
+    <ClCompile Include="myinfo.c" />
+    <ClCompile Include="p1.cpp" />
+    <ClCompile Include="ProductManager.cpp" />
     <ClCompile Include="test01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="testt.cpp" />
+    <ClCompile Include="testt.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Vector01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Vectotest01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LibrarySystem.main.c" />
+    <None Include="LibrarySystem_struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
